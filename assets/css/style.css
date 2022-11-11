@@ -26,10 +26,10 @@
     }
 
     #offcanvasExample{
-        transform: none;
+        transform: none; 
         visibility: visible;
         position: absolute;
-        top: var(--topNavbarHeight);
+        top: var(--topNavbarHeight); 
     }
     #offcanvasExample{
         margin-left: 40px;
