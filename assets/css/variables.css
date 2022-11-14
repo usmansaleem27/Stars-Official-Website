@@ -1,0 +1,10 @@
+:root{
+    --offcanvas-width: 270px;
+    --topNavbarHeight: 56px;
+}
+#offcanvasExample{
+    width: var(--offcanvas-width);
+}
+#offcanvasExample{
+    top: var(--topNavbarHeight); 
+}
