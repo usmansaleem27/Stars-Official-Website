@@ -21,6 +21,16 @@
     body{
         overflow: auto !important;
     }
+    #section_right_side{
+        padding-right: 50px;
+    }
+    #navbar_position{
+        position: fixed;
+        width: 100%;
+    }
+    #main_page_height{
+        padding-top: 64px;
+    }
     .offcanvas_backdrop::before{
         display: none;
     }
@@ -28,7 +38,6 @@
     #offcanvasExample{
         transform: none; 
         visibility: visible;
-        position: absolute;
         top: var(--topNavbarHeight); 
     }
     #offcanvasExample{
@@ -38,9 +47,15 @@
         /* border: 2px solid red; */
         border-radius: 10px;
     }
+    #section_right_side .wrapper{
+        padding-top: 60px;    
+    }
+}
+#section_right_side .wrapper{
+    padding-top: 30px;    
 }
 .container-fluid .row .col-6 .wrapper{
-    padding-right: 70px;
+    padding-right: 30px;
     padding-top: 30px;
 }
 #para_setting{
@@ -62,13 +77,16 @@
         padding-top: 20px;
     }
 }
+@media only screen and (max-width:768px) and (min-width:425px){
+    #section_right_side{
+        padding-right: 40px;
+    }
+}
 body{
     background-color: #8EC5FC;
     background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 }
-#section_right_side .wrapper{
-    padding-top: 60px;    
-}
+
 #campuses_section .row .col-lg-6 .wrapper{
     border: 1px solid black;
 }
