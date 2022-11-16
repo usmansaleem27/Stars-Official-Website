@@ -47,11 +47,11 @@ body::-webkit-scrollbar {
 #campuses_section .row .col-lg-6 .wrapper{
     border: 1px solid black;
 }
+    /* Scroll Bar fr Side Bar */
 #scrollbar_side::-webkit-scrollbar {
     width: 10px;
     
 }
-
 #scrollbar_side::-webkit-scrollbar-track {
     background: RGB(108, 117, 125);
     margin-block-start: 30px;
