@@ -26,6 +26,12 @@
         padding-bottom: 5px;
         margin-bottom: 15px;
     }
+    #right-icon{
+        transition: 0.5s all;
+    }
+    .sidebar-link[aria-expanded="true"] #right-icon{
+        transform: rotate(180deg);
+    }
     #sidebar_brand .brand{
         font-size: 20px;
         padding-left: 15px;
