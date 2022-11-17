@@ -23,14 +23,17 @@ body::-webkit-scrollbar {
 .sidebar-link{
     display: flex;
     align-items: center;
+    padding: 10px 1px 10px 1px;
+    border: 1px solid #f96332;
+    border-radius: 50px;
+    margin: 10px 5px;
 }
-.sidebar-link .right-icon{
-    display: inline-flex;
-    transition: all ease 0.5s;
+.sidebar-link:hover{
+    background-color: white;
+    color: #f96332;
+    box-shadow: rgb(39 39 39 / 10%);
 }
-.sidebar-link[aria-expanded="true"] .right-icon{
-    transform: rotate(180deg);
-}
+
 #section_right_side .wrapper{
     padding-top: 30px;    
 }
@@ -47,7 +50,7 @@ body::-webkit-scrollbar {
 #campuses_section .row .col-lg-6 .wrapper{
     border: 1px solid black;
 }
-    /* Scroll Bar fr Side Bar */
+    Scroll Bar fr Side Bar */
 #scrollbar_side::-webkit-scrollbar {
     width: 10px;
     
@@ -65,4 +68,7 @@ body::-webkit-scrollbar {
 
 #scrollbar_side::-webkit-scrollbar-thumb:hover {
     background: RGB(159, 196, 252);
+}
+#scrollbar_side{
+    background-color: #f96332;
 }

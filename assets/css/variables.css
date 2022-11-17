@@ -5,6 +5,3 @@
 #offcanvasExample{
     width: var(--offcanvas-width);
 }
-#offcanvasExample{
-    top: var(--topNavbarHeight); 
-}

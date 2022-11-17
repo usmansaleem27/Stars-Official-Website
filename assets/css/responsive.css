@@ -20,11 +20,19 @@
         transform: none; 
         visibility: visible;
     }
-    #offcanvasExample{
-        margin-left: 40px;
-        margin-top: 40px;
-        margin-bottom: 40px;
-        border-radius: 10px;
+    #sidebar_brand{
+        display: flex;
+        border-bottom: 1px solid white;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+    }
+    #sidebar_brand .brand{
+        font-size: 20px;
+        padding-left: 15px;
+    }
+    #sidebar_brand .brand_name{
+        font-size: 20px;
+        padding-left: 25px;
     }
     #section_right_side .wrapper{
         padding-top: 60px;    
