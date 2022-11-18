@@ -1,6 +1,13 @@
 :root{
     --offcanvas-width: 270px;
     --topNavbarHeight: 56px;
+    --primary: #314755;
+    --secondary: #26a0da;
+    --white: #fff;
+    --white-light: rgba(255, 255, 255, 0.315);
+    --black: #000;
+    --bg-gradient: linear-gradient(to right, #314755, #26a0da);
+    --bg-gradient-to-bottom: linear-gradient(to bottom, #314755, #26a0da);
 }
 #offcanvasExample{
     width: var(--offcanvas-width);

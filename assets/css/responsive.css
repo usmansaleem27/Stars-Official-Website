@@ -10,12 +10,15 @@
         width: 100%;
     }
     #main_page_height{
-        padding-top: 64px;
+        padding-top: 100px;
     }
     .offcanvas_backdrop::before{
         display: none;
     }
     #navbar_brand_dashboard{
+        margin-left: 290px;
+    }
+    .copy-right-text{
         margin-left: 290px;
     }
     #offcanvasExample{
@@ -66,5 +69,10 @@
 @media only screen and (max-width:768px) and (min-width:425px){
     #section_right_side{
         padding-right: 40px;
+    }
+}
+@media only screen and (max-width: 767px){
+    #main_page_height{
+        padding-left: 0!important;
     }
 }
