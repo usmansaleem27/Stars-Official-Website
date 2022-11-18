@@ -1,13 +1,14 @@
 @import url("variables.css");
 @import url("responsive.css");
+
 body{
-    background-color: #8EC5FC;
-    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    /* background-color: #8EC5FC; */
+    background-color: white;
+    background-image: linear-gradient(45deg, RGB(20, 48, 82) 0%, RGB(41, 84, 131) 50%);
 }
 body::-webkit-scrollbar {
     width: 10px;
 }
-
 ::-webkit-scrollbar-track {
     background: RGB(195, 196, 252);
 }
@@ -32,6 +33,10 @@ body::-webkit-scrollbar {
     background-color: white;
     color: #f96332;
     box-shadow: rgb(39 39 39 / 10%);
+}
+#navbar_position{
+    background-image: linear-gradient(45deg, RGB(20, 48, 82) 0%, RGB(41, 84, 131) 50%);
+
 }
 
 #section_right_side .wrapper{
@@ -72,3 +77,12 @@ body::-webkit-scrollbar {
 #scrollbar_side{
     background-color: #f96332;
 }
+#navbar_person_icon{
+    color: white;
+}
+#navbar_person_icon:hover{
+    /* border: 1px solid RGB(93, 120, 150); */
+    border-radius: 5px;
+    background-color: RGB(93, 120, 150);
+}
+#search_box

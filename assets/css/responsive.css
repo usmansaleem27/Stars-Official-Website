@@ -15,16 +15,19 @@
     .offcanvas_backdrop::before{
         display: none;
     }
-
+    #navbar_brand_dashboard{
+        margin-left: 290px;
+    }
     #offcanvasExample{
         transform: none; 
         visibility: visible;
+         box-shadow:1px 2px 15px 1px rgb(39 39 39 / 100%);
     }
     #sidebar_brand{
         display: flex;
         border-bottom: 1px solid white;
-        padding-bottom: 5px;
-        margin-bottom: 15px;
+        padding-bottom: 12px;
+        margin-bottom: 10px;
     }
     #right-icon{
         transition: 0.5s all;
