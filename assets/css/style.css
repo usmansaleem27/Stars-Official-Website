@@ -18,11 +18,37 @@
 }
 
 
-
-
 /* ###########################
     End Helping Classes
 ############################## */
+
+
+/* ###########################
+    Preloader
+############################## */
+
+#preloader{
+    background: black;
+    background-image: url(../images/Preloader.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+
+
+/* ###########################
+    Preloader Ends Here
+############################## */
+
+
+
+
+
 
 /* ###########################
     Navbar CSS

@@ -24,6 +24,7 @@
     #offcanvasExample{
         transform: none; 
         visibility: visible;
+        z-index: 5;
          box-shadow:1px 2px 15px 1px rgb(39 39 39 / 100%);
     }
     #sidebar_brand{
