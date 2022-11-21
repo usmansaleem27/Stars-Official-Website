@@ -53,12 +53,14 @@
 /* ###########################
     Navbar CSS
 ############################## */
-
-#wrapper h1{
-    font-weight: 600;
+#digital_clock{
+    font-size: 50px;
     color: white;
 }
-
+#digital_display{
+    font-size: 40px;
+    color: white;
+}
 
 
 /* ###########################
@@ -67,6 +69,7 @@
 body{
     /* background-color: #8EC5FC; */
     background-color: var(--primary);
+
     /* background-color: white; */
     /* background-image: linear-gradient(45deg, RGB(20, 48, 82) 0%, RGB(41, 84, 131) 50%); */
     font-family: 'Open Sans', sans-serif;
