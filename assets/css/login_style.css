@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background: url(../images/modern-gold-background-free-vector.jpg);
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: sans-serif;
